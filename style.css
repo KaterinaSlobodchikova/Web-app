@@ -140,11 +140,29 @@
 }
 
 .scroll-first {
-    margin-bottom: 15px;
+    transform: translateY(30px);
 }
 
 .scroll-second {
-    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #8D8C92;
+    transform: translateY(60px);
+}
+
+.scroll-third {
+    transform: translateY(90px);
+}
+
+.scroll-forth {
+    transform: translateY(120px);
+}
+
+.scroll-fifth {
+    transform: translateY(150px);
+}
+
+.scroll-sixth {
+    transform: translateY(180px);
 }
 
 
