@@ -80,7 +80,7 @@
 
 .about-company {
     display: flex;
-    position: absolute;
+    position: relative;
     width: 1920px;
     height: 940px;
     background-color: #F1F1F1;
@@ -123,13 +123,32 @@
 }
 
 .scroll {
+    margin-left: 200px;
+    margin-top: 388px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-bot {
     position: absolute;
+    z-index: 10;
     align-items: flex-end;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    color: black;
+    background-color: black;
 }
+
+.scroll-first {
+    margin-bottom: 15px;
+}
+
+.scroll-second {
+    margin-bottom: 15px;
+}
+
+
+
 
 
 
